@@ -18,10 +18,10 @@ substitutions:
   enable_sync_time: false # true, false - Enable time sync with HomeAssistant (Deye 3P inverters only)
 
 packages:
-  pv_inverter:
+  zalohapv:
     url: https://github.com/lades84lades84-lang/ladespecka12k
     refresh: 12h
-    files: pv_inverter/deye_hybrid_3p_lv.yaml # SG0XLP3 Low Voltage (3P)
+    files: zalohapv/hlavni_zaloha_deye12k.yaml
 
 # Set appropriately if using a different board. https://esphome.io/components/#supported-microcontrollers
 esp32:
